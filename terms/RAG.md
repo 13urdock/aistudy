@@ -175,7 +175,6 @@ https://velog.io/@ganadara/Jupyter-Notebook-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4
 ## retriever 비교
 https://medium.com/@shravankoninti/mastering-rag-a-deep-dive-into-retriever-2ac7957106b7
 
-
 ## FAISS
 vector db developed by facebook
 
