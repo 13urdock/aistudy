@@ -178,3 +178,5 @@ https://medium.com/@shravankoninti/mastering-rag-a-deep-dive-into-retriever-2ac7
 
 ## FAISS
 vector db developed by facebook
+
+## unstructured loader
