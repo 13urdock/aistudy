@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terms/RAG.md",
+                "file": "terms/Transformer attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG"
+              "title": "Transformer attention"
             }
           }
         ]
@@ -167,15 +167,16 @@
   },
   "active": "a4dcf4304929b267",
   "lastOpenFiles": [
+    "terms/RAG.md",
+    "terms/2025-03-30 LLM explanation & transformer.md",
+    "terms/2025-03-24 AI 학습.md",
+    "terms/images/Pasted image 20250405190642.png",
     "250411-RAG.md",
     "250317 첫 회의.md",
     "250317-첫-회의.md",
-    "terms/RAG.md",
     "terms/Transformer attention.md",
     "250411 RAG.md",
     "Untitled.md",
-    "terms/2025-03-24 AI 학습.md",
-    "terms/2025-03-30 LLM explanation & transformer.md",
     "terms/images/Pasted image 20250405201428.png",
     "terms/images/Pasted image 20250405201351.png",
     "terms/images/Pasted image 20250405201323.png",
@@ -185,7 +186,6 @@
     "terms/images/Pasted image 20250405195955.png",
     "terms/images/Pasted image 20250405195914.png",
     "terms/images/Pasted image 20250405195819.png",
-    "terms/images/Pasted image 20250405195740.png",
     "terms/images",
     "terms"
   ]
