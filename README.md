@@ -1,12 +1,40 @@
-# AI 공부 정리
-AI와 머신러닝에 대한 학습 과정을 기록하기 위한 공간입니다.
-각 프로젝트는 실습 코드와 설명이 담긴 블로그로 정리해놓았습니다
-## 목차
-| Concept | blog | About                |
-| ------- | ---- | -------------------- |
-| [MNLI](https://github.com/13urdock/aistudy/blob/main/MNLI/mnli.ipynb)    |  | MNLI 분류모델을 이용한 감정 분석 |
-| [RAG](https://github.com/13urdock/aistudy/blob/main/RAG/rag.ipynb)     | [리트리버 비교 하기](https://velog.io/@l3urdock/RAG-%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0), [리트리버 장단점](https://velog.io/@l3urdock/Retriever-%EC%9E%A5%EB%8B%A8%EC%A0%90) | RAG 챗봇 프로젝트          |
-| [Prompt] || 수능 문제 풀기|
+# 🤖 AI 학습 기록 저장소
+
+![GitHub last commit](https://img.shields.io/github/last-commit/13urdock/aistudy)
+![GitHub repo size](https://img.shields.io/github/repo-size/13urdock/aistudy)
+
+인공지능과 머신러닝 학습 과정을 정리했습니다. 각 프로젝트는 실습 코드와 Velog에 정리되어 있습니다.
+
+## 📚 프로젝트 목록
+
+| 프로젝트 | 설명 | 블로그 포스팅 |
+|---------|------|-------------|
+| [**MNLI**](./MNLI/README.md) | MNLI 분류모델을 이용한 자연어 추론 및 감정 분석 프로젝트 | - |
+| [**RAG**](./RAG/README.md) | 검색 증강 생성(Retrieval-Augmented Generation) 챗봇 구현 | [리트리버 비교 하기](https://velog.io/@l3urdock/RAG-%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0), [리트리버 장단점](https://velog.io/@l3urdock/Retriever-%EC%9E%A5%EB%8B%A8%EC%A0%90) |
+| [**Prompt Engineering**](./Prompt/README.md) | 프롬프트 엔지니어링 기법 및 수능 문제 풀기 실험 | 작성 예정 |
+
+## 🛠️ 기술 스택
+
+- **프레임워크**: PyTorch, Hugging Face Transformers
+- **언어**: Python
+- **환경**: Jupyter Notebook
+
 
 ## 용어 정리
 ![image](https://github.com/user-attachments/assets/445fd46d-7f4b-4107-97c6-322fd56ed4e9)
+
+## 📝 학습 로그
+
+- **2025-05**: RAG 리트리버 성능 비교 실험
+- **2025-04**: MNLI 분류모델 학습 및 평가
+
+## 🔗 참고 자료
+
+- [Hugging Face 문서](https://huggingface.co/docs)
+- [PyTorch 튜토리얼](https://pytorch.org/tutorials/)
+
+## 📮 연락처
+
+- 블로그: [Velog](https://velog.io/@l3urdock)
+- GitHub: [13urdock](https://github.com/13urdock)
+
