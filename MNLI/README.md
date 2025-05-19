@@ -13,17 +13,6 @@ MNLI(Multi-Genre Natural Language Inference) 분류 모델을 활용하여 텍�
 - 다양한 장르와 도메인의 텍스트에 대한 추론 수행
 - 감정 분석 결과 시각화 및 해석
 
-## 📁 파일 구조
-
-```
-MNLI/
-├── mnli.ipynb          # 메인 코드 및 실험
-├── data/               # 데이터셋
-│   ├── train.csv       # 학습 데이터
-│   └── test.csv        # 테스트 데이터
-└── results/            # 실험 결과
-    └── visualizations/ # 결과 시각화
-```
 
 ## 📈 학습 과정 및 결과
 
@@ -104,14 +93,13 @@ BERT 기반 모델
 
 ![MNLI 학습 그래프](image.png)
 
-상단 그래프는 훈련 과정의 효율성(steps/sec, samples/sec, runtime)을 보여주며, 하단 그래프는 모델의 품질(loss, accuracy)을 나타냅니다.
+그래프는 훈련 과정의 효율성(steps/sec, samples/sec, runtime)을 보여주며, 하단 그래프는 모델의 품질(loss, accuracy)을 나타냅니다.
 
-특히 주목할 점:
 - 8K 스텝에서 검증 손실이 최소값을 기록
 - 정확도는 8K-10K 스텝 사이에서 최고점 도달 후 안정화
 - 10K 스텝에서 처리 속도(steps/sec)가 최고점을 기록하지만, 이후 손실이 다시 증가하는 경향
 
-이러한 패턴은 8K-10K 스텝 구간이 이 모델의 최적 학습 지점임을 시사합니다.
+이러한 패턴은 8K-10K 스텝 구간이 이 모델의 최적 학습 지점임을 알 수 있습니다.
 
 
 ## 🔍 MNLI란?
@@ -123,11 +111,5 @@ MNLI(Multi-Genre Natural Language Inference)는 텍스트 쌍 간의 논리적 �
 - **중립(Neutral)**: 두 문장 사이에 특별한 논리적 관계가 없음
 
 이 프로젝트에서는 이러한 MNLI의 원리를 활용하여 텍스트의 감정을 분석합니다.
-
-## 📚 참고 자료
-
-- [MNLI 데이터셋](https://cims.nyu.edu/~sbowman/multinli/)
-- [Hugging Face Transformers 문서](https://huggingface.co/docs/transformers/index)
-- [자연어 추론에 관한 논문](https://arxiv.org/abs/1704.05426)
 
 ## 🔙 [메인 페이지로 돌아가기](../README.md)
