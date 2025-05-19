@@ -9,9 +9,9 @@
 
 | 프로젝트 | 설명 | 블로그 포스팅 |
 |---------|------|-------------|
-| [**MNLI**](./MNLI/README.md) | MNLI 분류모델을 이용한 자연어 추론 및 감정 분석 프로젝트 | - |
-| [**RAG**](./RAG/README.md) | 검색 증강 생성(Retrieval-Augmented Generation) 챗봇 구현 | [리트리버 비교 하기](https://velog.io/@l3urdock/RAG-%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0), [리트리버 장단점](https://velog.io/@l3urdock/Retriever-%EC%9E%A5%EB%8B%A8%EC%A0%90) |
-| [**Prompt Engineering**](./Prompt/README.md) | 프롬프트 엔지니어링 기법 및 수능 문제 풀기 실험 | 작성 예정 |
+| [**MNLI**](./MNLI/) | MNLI 분류모델을 이용한 자연어 추론 및 감정 분석 프로젝트 | - |
+| [**RAG**](./RAG/) | 검색 증강 생성(Retrieval-Augmented Generation) 챗봇 구현 | [리트리버 비교 하기](https://velog.io/@l3urdock/RAG-%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0), [리트리버 장단점](https://velog.io/@l3urdock/Retriever-%EC%9E%A5%EB%8B%A8%EC%A0%90) |
+| **Prompt Engineering** | 프롬프트 엔지니어링 기법 및 수능 문제 풀기 실험 | 작성 예정 |
 
 ## 🛠️ 기술 스택
 
