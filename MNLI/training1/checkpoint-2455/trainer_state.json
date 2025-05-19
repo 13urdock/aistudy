@@ -1,6 +1,6 @@
 {
   "best_global_step": 2455,
-  "best_metric": 0.8988690972328186,
+  "best_metric": 0.8624455332756042,
   "best_model_checkpoint": "training1\\checkpoint-2455",
   "epoch": 1.0,
   "eval_steps": 500,
@@ -11,18 +11,18 @@
   "log_history": [
     {
       "epoch": 1.0,
-      "grad_norm": 1.778939127922058,
+      "grad_norm": 1.5033180713653564,
       "learning_rate": 0.000800081466395112,
-      "loss": 0.9663,
+      "loss": 0.851,
       "step": 2455
     },
     {
       "epoch": 1.0,
-      "eval_accuracy": 0.5790733502247234,
-      "eval_loss": 0.8988690972328186,
-      "eval_runtime": 58.7621,
-      "eval_samples_per_second": 1336.593,
-      "eval_steps_per_second": 10.449,
+      "eval_accuracy": 0.6148763066423906,
+      "eval_loss": 0.8624455332756042,
+      "eval_runtime": 74.4068,
+      "eval_samples_per_second": 1055.562,
+      "eval_steps_per_second": 8.252,
       "step": 2455
     }
   ],
@@ -43,7 +43,7 @@
       "attributes": {}
     }
   },
-  "total_flos": 13184201657340.0,
+  "total_flos": 15554041348860.0,
   "train_batch_size": 128,
   "trial_name": null,
   "trial_params": null
